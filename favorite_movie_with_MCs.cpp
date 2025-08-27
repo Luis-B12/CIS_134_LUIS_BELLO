@@ -6,7 +6,17 @@
 
 using namespace std;
 
-main()
+int main()
 {
-    cout << "My favorite movie is Intersellat" endl << " The main character are " << endl;
+
+    //Prints the name and characters of my favorite movie with endl causing it to change lines
+
+    cout << "My favorite movie is Interstellar." << endl;
+    cout << "The main character are:" << endl;
+    cout << "Joseph Cooper" << endl;
+    cout << "Brand" << endl;
+    cout << "Murphy Cooper" << endl;
+    cout << "Tars" << endl;
+
+    return 0;
 }

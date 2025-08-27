@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    // divides the number 10 with 0. This should cause an error due to dividing by 0 or do nothing.
     int num1 = 10;
     int num2 = 0;
     int qoutient = num1 / num2;
