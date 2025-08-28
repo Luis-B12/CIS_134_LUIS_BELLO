@@ -12,7 +12,7 @@ int main ()
     
     int time = 4;
     int distance = 400;
-    int velocity = distance/time;
+    int velocity = distance / time;
 
     cout << "The velocity is " << velocity << " mph.";
 

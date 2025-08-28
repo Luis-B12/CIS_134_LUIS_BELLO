@@ -1,5 +1,5 @@
 //@author: Luis Bello
-//@date: 8/27/2025
+//@date: 8/28/2025
 //@purpose: This programs calculates and prints the Force
 
 #include <iostream>
