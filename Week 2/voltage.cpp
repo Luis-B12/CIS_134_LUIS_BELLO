@@ -9,8 +9,8 @@ using namespace std;
 int main ()
 {
     int resistance = 2; 
-    int amps = 10;
-    int voltage = resistance * amps;
+    int current = 10;
+    int voltage = resistance * current;
 
     cout << "The voltage is " << voltage << " volts.";
 
