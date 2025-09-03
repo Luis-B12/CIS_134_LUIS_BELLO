@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 8/27/2025
-//@purpose: This programs prints the numbers 0 through 10
+//@purpose: This programs divides a number by 0 causing an error
 
 #include <iostream>
 
