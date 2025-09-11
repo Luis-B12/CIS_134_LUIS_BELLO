@@ -12,14 +12,16 @@ int main()
 
     cout << "Please enter a year to see if it is a leap. Press enter once typed out."; //ask the user to enter a year
 
-    cin >> year;
+    cin >> year;                                                    //users enters year
+   
+//It is a leap year if it multiple of 4 and not a multiple 100 or a multiple of 400
 
-    if (year % 4 == 0 && year % 400 == 0){                                     //if the year is multiplicable of 4 and 400 it is a leap. Prints statement if so.          
-        cout << "The year you entered " << year << " is a leap year.";
-    }
-
-    else if ( year % 100 ==0 ){                                                 //if the year is multiplicale of 100 it is NOT a leap year. Prints statement if so.
-        cout << "The year you entered " << year << " is NOT leap year.";
+    if( (year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+        cout << "The year you entered " << year << " is a leap year.";          
+    
+    } else 
+    {
+        cout << "The year you entered " << year << " is NOT a leap yaer."; //If it does fit nothing from above, it is not a leap year
     }
 return 0;
 }
