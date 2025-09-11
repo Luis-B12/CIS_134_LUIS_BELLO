@@ -8,9 +8,9 @@ using namespace std;
 
 int main()
 {
-    float grade1 = 0, grade2 = 0, grade3 = 0;                      //divides the sum with the total numbers of the sum
+    float grade1 = 0.0, grade2 = 0.0, grade3 = 0.0;                      //divides the sum with the total numbers of the sum
     
-    cout << "What are the 3 grades?";
+    cout << "What are the 3 grades? Press enter when inputed.";
     
     cin >> grade1 >> grade2 >> grade3;
 

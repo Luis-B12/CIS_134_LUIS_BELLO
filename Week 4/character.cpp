@@ -23,18 +23,9 @@ int main()
       
         cout << "The letter is a vowel.";       //Prints if the character is vowel
 
-//Lists the numbers and checks if the character inserted is number.
-    
-    }else if (character == '1'|| character == '2' || character == '3' || 
-            character == '4' || character == '5' || character == '6'||
-            character == '7' || character == '8' || character == '9'|| character == '0'){
-           
-                cout << "The character entered is not a letter. Please enter a letter."; // Prints if the character is not a letter
-            }
-   
-//Lists all the consonants and checks if the character is a consonant
+        //Lists all the consonants and checks if the character is a consonant
 
-            else if (character == 'q'|| character == 'Q'|| character =='w'|| 
+        }else if (character == 'q'|| character == 'Q'|| character =='w'|| 
             character =='W'|| character =='r'|| character =='R'|| 
             character =='t'|| character =='T'|| character =='y'|| 
             character =='Y'|| character =='p'|| character =='P'|| 
@@ -47,8 +38,16 @@ int main()
             character =='x'|| character =='X'|| character =='c'|| 
             character =='C'|| character =='v'|| character =='V'|| 
             character =='b'|| character =='B'|| character =='n'|| 
-            character =='N'|| character =='m'|| character =='M')
+            character =='N'|| character =='m'|| character =='M'){
           
-            cout << "The character is a consonant.";        //Prints if the character is a character
+            cout << "The character is a consonant.";                                        //Prints if the character is a consonant
+//Lists the numbers and checks if the character inserted is number.
+    
+    }else if (character == '1'|| character == '2' || character == '3' || 
+            character == '4' || character == '5' || character == '6'||
+            character == '7' || character == '8' || character == '9'|| character == '0'){
+           
+                cout << "The character entered is not a letter. Please enter a letter.";    // Prints if the character is not a letter
+            }
 return 0;
 }
