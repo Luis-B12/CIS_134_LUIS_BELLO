@@ -17,10 +17,10 @@ int main()
     {
         std:: cout << "Please enter the correct tempature of 212.34." << std:: endl;
         std:: cin >> temp;              //allows temp to be inserted again
-
-        if (temp == cTemp)              //compares temp and ctemp. If they are equal it prints
-        std:: cout << "The tempature has been successfully set, thank you.";
     }
+                      //If they are equal it prints
+        std:: cout << "The tempature has been successfully set, thank you.";
+    
 
 return 0;
 }

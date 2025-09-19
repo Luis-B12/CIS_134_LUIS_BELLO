@@ -23,7 +23,6 @@ int main ()
 
     theta = atan2(y,x);         //Finds theta
 
-    cout << "Angle in radians: " << theta << endl;      //atan2 gives theta in radians
     theta = theta * (180/M_PI);                         //M_PI is pi
 
     cout << "Angle in degree: " << theta << endl;       //converts the angle to degrees
