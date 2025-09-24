@@ -10,7 +10,7 @@ int main()
 {
     int MAXnum = 0;                 //Initalize MAXnum
 
-    cout << "What is the integers." << endl;        //Ask for the max num
+    cout << "What is the integer." << endl;        //Ask for the max num
     
     cin >> MAXnum;
 

@@ -18,8 +18,7 @@ int main()
     
     //asks from max amount of rolls
     
-    cout << "This program will give a dice rolls depending the on amount of rolls you want." << endl 
-        << "Please insert the amount of rolls you want.";
+    cout << "This program will give a certain amount of dice rolls depending on the inserted number.";
 
     cin >> maxR;                                       
 

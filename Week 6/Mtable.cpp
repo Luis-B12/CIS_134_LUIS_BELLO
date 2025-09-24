@@ -10,7 +10,7 @@ int main()
 {
     int input = 0, num = 0, output = 0;         //initializes input, num, and output
 
-    cout << "Please enter an interger to show it mutliplications values from 0 to 12." << endl;
+    cout << "Please enter an interger to show its mutliplications values from 0 to 12." << endl;
 
     cin >> input;
 
