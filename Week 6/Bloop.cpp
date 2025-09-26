@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/22/2025
-//@purpose: This programs loops and finds the iterations backwards#include <iostream>
+//@purpose: This programs loops and finds the iterations backwards
 
 #include <iostream>
 

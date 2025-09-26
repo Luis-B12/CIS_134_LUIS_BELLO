@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/22/2025
-//@purpose: This programs loops based on the number
+//@purpose: This programs loops based on a inputted number
 
 #include <iostream>
 

@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/23/2025
-//@purpose: This programs loops based on the number
+//@purpose: This programs loops and prints the sum of the iteration and adder
 
 #include <iostream>
 

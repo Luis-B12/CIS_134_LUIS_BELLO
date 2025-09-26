@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/22/2025
-//@purpose: This programs uses an accumalator to loop to 100
+//@purpose: This programs uses an accumalator to print the number of loops, being 100
 
 #include <iostream>
 

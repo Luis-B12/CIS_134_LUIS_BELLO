@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/22/2025
-//@purpose: This programs loops and counts the iterations
+//@purpose: This programs loops and counts the iterations starting at 0 and finishing at 10
 
 #include <iostream>
 

@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/23/2025
-//@purpose: This programs rolls dice (0-6) based on the  inputed interger
+//@purpose: This programs rolls dice (0-6) based on the  inputed integer
 
 #include <iostream>
 #include <random>

@@ -1,6 +1,6 @@
 //@author: Luis Bello
 //@date: 9/23/2025
-//@purpose: This programs loops to form a table for the sqaured
+//@purpose: This programs loops to form a table for the sqaured of the iteration
 
 #include <iostream>
 
