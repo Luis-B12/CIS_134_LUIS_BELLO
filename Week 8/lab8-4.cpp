@@ -11,19 +11,19 @@ int main()
 {
     int input = 0;
 
-    ofstream output_file;
-    output_file.open("lab4.txt");
+    ofstream output_file;               //allows you to open and read a file
+    output_file.open("lab4.txt");       //opens the file and names it
 
     cout << "Please enter a interger to print on a file: ";
 
     cin >> input;
 
-    for(int num =0; num < input; num++)
+    for(int num =0; num < input; num++)         //prints the numbers until it reaches the number below the interger
     {
             output_file << num << endl;
     }
 
-    output_file.close();
+    output_file.close();        //closes file
 
     cout << "Done writing.";
 }

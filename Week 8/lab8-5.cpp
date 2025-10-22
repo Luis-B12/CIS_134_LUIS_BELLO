@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    ofstream output_file;
+    ofstream output_file;           //creates the file
 
     output_file.open("lab5.txt");           //opens the file and names it
 

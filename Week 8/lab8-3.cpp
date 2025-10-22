@@ -13,7 +13,7 @@ int main()
 
     outputfile.open("lab3.txt");                //opens the file
 
-    cout << "Writing text in a file called lab1.txt." << endl;
+    cout << "Writing text in a file called lab3.txt." << endl;
 
 //writes in the file
 

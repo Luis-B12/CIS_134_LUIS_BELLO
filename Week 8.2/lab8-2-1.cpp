@@ -13,7 +13,7 @@ int main()
     ifstream input_file;
 
 
-    input_file.open("C:\\Users\\siulg\\Sandhills\\25-26\\CSC\\friends.txt");         //opens the file
+    input_file.open("friends.txt");         //opens the file
 
     while(input_file >> name)           //reads the first name
     {                
