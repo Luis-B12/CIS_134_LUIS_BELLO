@@ -15,45 +15,39 @@ int main()
     cout << "How many integers are you going to list?" << endl;
     cin >> size;
 
-    int array[size];
+    int array[size];                //creates an array with it being the size being the integer inputted
 
-    for(int num = 0; num < size; num++)
+    for(int num = 0; num < size; num++)             //goes through the loop to initialize the array
     {
-        cout << "Please enter a interger" << endl;
+        cout << "Please enter a interger" << endl;      
         
-        while(!(cin >> array[num]))
+        while(!(cin >> array[num]))             //validates if the character inputted is a interger if the cin statement fails
         {
             cout << "You did NOT enter a integer. Try again." << endl;
-            cin.clear();
-            cin.ignore(10000, '\n');
+            cin.clear();                        //clears the cin failure
+            cin.ignore(50000, '\n');            //ignore the any character before until 50000 character or new lines starts
         }
     }
     
-    int revarray[size];
+    int revarray[size];                     //reverse array is created
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size; i++)          //the content of the array is printed to the reversed array in reverse order
     {
             revarray[i] = array[size - i - 1];
     }
 
-    cout << "Regular array: ";
+    cout << "Regular array: ";         
 
-    for ( int size : array)
+    for ( int size : array)     //prints the regular array
     {
         cout << size << " ";
     }
 
     cout << endl << "Reverse Array: ";
 
-    for(int size : revarray)
+    for(int size : revarray)            //prints the reverse array
     {
         cout << size << " ";
     }
 
 }
-
-/*if(cin.fail())
-        {
-            cout << "You did NOT enter a integer. Try again." << endl;
-            cin.clear();
-        }*/
